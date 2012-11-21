@@ -44,8 +44,8 @@ func indexPage(w http.ResponseWriter, r *http.Request) {
 func main() {
     http.HandleFunc("/cut", cutAction)       //设置访问的路由
     http.HandleFunc("/", indexPage)         //设置访问的路由
+    log.Println("listening at :9090 port, please open your brower: http://localhost:9090")
     err := http.ListenAndServe(":9090", nil) //设置监听的端口
-    log.Println("listening at :9090 port")
     if err != nil {
         log.Fatal("ListenAndServe: ", err)
     }
