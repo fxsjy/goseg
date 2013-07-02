@@ -1,3 +1,10 @@
+NEWS
+====
+This project has been moved to CSDN: https://code.csdn.net/fxsjy/goseg/ .
+The reason is that Github limit the size of "git push" to be 100MB at most.
+
+
+
 goseg: A Chinese Word Segmentation Library in GoLang
 ==================================================
 
