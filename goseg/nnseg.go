@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/wangkuiyi/goseg/gonn"
+	"github.com/fxsjy/goseg/gonn"
 )
 
 var nn *gonn.PCNNetwork
